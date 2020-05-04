@@ -13,6 +13,6 @@ public class NetworkCallbacks : GlobalEventListener
     var spawnPosition = new Vector3(Random.Range(-8, 8), 0, Random.Range(-8, 8));
 
     //instantiate cube
-    BoltNetwork.Instantiate(BoltPrefabs.Cube, spawnPosition, Quaternion.identity);
+    BoltNetwork.Instantiate(BoltPrefabs.TutorialBox, spawnPosition, Quaternion.identity);
   }
 }
